@@ -2,15 +2,15 @@ var catimg1, catimg2, catimg3, cat;
 var mouse, mouseimg1,mouseimg2,mouseimg3;
 var garden,tela;
 function preload() {
-catimg1=loadAnimation("images/cat1.png");
-catimg2=loadAnimation("images/cat2.png","images/cat3.png");
-catimg3=loadAnimation("images/cat4.png");
+catimg1=loadAnimation("cat1.png");
+catimg2=loadAnimation("cat2.png","cat3.png");
+catimg3=loadAnimation("cat4.png");
  
-mouseimg1=loadAnimation("images/mouse1.png");
-mouseimg2=loadAnimation("images/mouse2.png","images/mouse3.png");
-mouseimg3=loadAnimation("images/mouse4.png");
+mouseimg1=loadAnimation("mouse1.png");
+mouseimg2=loadAnimation("mouse2.png","mouse3.png");
+mouseimg3=loadAnimation("mouse4.png");
 
-garden=loadImage("images/garden.png");
+garden=loadImage("garden.png");
 
 }
 
